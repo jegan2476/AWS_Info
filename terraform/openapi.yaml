@@ -1,0 +1,21 @@
+openapi: "3.0.1"
+
+info:
+  title: Customer API
+  version: "1.0"
+
+paths:
+
+  /customers:
+
+    get:
+
+      summary: Get Customers
+
+      responses:
+
+        "200":
+
+          description: Success
+
+x-amazon-apigateway-importexport-version: "1.0"
